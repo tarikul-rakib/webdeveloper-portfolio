@@ -150,3 +150,33 @@ line-height: normal;
 .download-tcv{
   text-align: center;
 }
+/* footer style */
+footer{
+  display: flex;
+  gap: 100px;
+  background: #FFF8F3;
+  padding:130px 230px;
+  margin: 100px;
+}
+.footer-column{
+  width: 50%;
+  text-align: left;
+}
+.social-icon{
+  margin-right: 25px;
+}
+.contact input, textarea{
+  display: block;
+  margin-bottom: 24px;
+  border: none;
+  padding: 18px 35px;
+  color: #757575;
+  border-radius: 5px;
+  
+}
+.section-head{
+  text-align: left;
+}
+.contact input[type="text"], .contact input[type="email"]{
+  width: 100%;
+}
